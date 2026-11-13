@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080808">
+
+    <title>Alif Putra Firmansyah | Personal Space</title>
+    <meta name="description" content="Personal space of Alif Putra Firmansyah. A little story about me, my interests, and my journey.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <span>ALIF.</span>
+            <div class="loader-line"></div>
+            <p>WELCOME TO MY SPACE</p>
+        </div>
+    </div>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <a href="#home" class="logo">ALIF<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav id="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#interests">Interests</a>
+            <a href="#journey">My Journey</a>
+            <a href="#moments">Moments</a>
+            <a href="#contact" class="nav-contact">Say Hello ↗</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+
+            <div class="hero-bg-text" aria-hidden="true">CREATIVE</div>
+
+            <div class="hero-content reveal">
+                <div class="availability">
+                    <span class="availability-dot"></span>
+                    OPEN TO NEW EXPERIENCES
+                </div>
+
+                <p class="hero-intro">HELLO, I'M</p>
+
+                <h1>
+                    ALIF PUTRA
+                    <span>FIRMANSYAH.</span>
+                </h1>
+
+                <div class="hero-role">
+                    <span class="role-line"></span>
+                    <p>Student. Creative Thinker. Digital Explorer.</p>
+                </div>
+
+                <p class="hero-description">
+                    Saya percaya bahwa setiap orang memiliki cerita
+                    dan cara tersendiri untuk mengekspresikan dirinya.
+                    Ini adalah ruang kecil untuk mengenal saya lebih dekat.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#about" class="btn btn-primary">
+                        GET TO KNOW ME <span>↘</span>
+                    </a>
+
+                    <a href="#moments" class="btn btn-text">
+                        EXPLORE MY WORLD ↗
+                    </a>
+                </div>
+
+                <div class="hero-location">
+                    <span>BASED IN</span>
+                    <p>BOGOR, INDONESIA</p>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="portrait-backdrop"></div>
+
+                <div class="portrait-frame">
+                    <img
+                        src="./assets/profile.jpeg"
+                        alt="Alif Putra Firmansyah"
+                        onerror="this.style.display='none'; this.nextElementSibling.hidden=false;"
+                    >
+
+                    <div class="portrait-placeholder" hidden>
+                        <span>APF</span>
+                    </div>
+                </div>
+
+                <div class="portrait-caption">
+                    <span>01 / PERSONAL SPACE</span>
+                    <span>EST. 2006</span>
+                </div>
+
+                <div class="floating-note">
+                    <span>✳</span>
+                    ALWAYS LEARNING
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-arrow">↓</span>
+            </a>
+
+        </section>
+
+        <!-- ABOUT ME -->
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+                <p class="section-label">01 — WHO I AM</p>
+                <h2>A LITTLE<br>ABOUT <span>ME.</span></h2>
+            </div>
+
+            <div class="about-layout">
+
+                <div class="about-image reveal">
+                    <img src="./assets/1.jpeg"
+                         alt="Personal activity"
+                         onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+
+                    <div class="image-fallback" hidden>
+                        <span>MY STORY</span>
+                    </div>
+
+                    <div class="image-number">FIG. 01</div>
+                </div>
+
+                <div class="about-text reveal">
+                    <p class="big-quote">
+                        "I'M NOT HERE TO BE PERFECT.
+                        I'M HERE TO KEEP GROWING."
+                    </p>
+
+                    <p>
+                        Halo! Saya Alif Putra Firmansyah, seorang mahasiswa
+                        Teknologi Rekayasa Multimedia di Universitas Boash.
+                    </p>
+
+                    <p>
+                        Saya memiliki ketertarikan pada dunia kreatif,
+                        teknologi, visual, dan berbagai hal yang
+                        memungkinkan saya untuk terus belajar dan mencoba
+                        sesuatu yang baru.
+                    </p>
+
+                    <p>
+                        Bagi saya, proses belajar bukan hanya tentang
+                        mendapatkan hasil, tetapi juga tentang pengalaman,
+                        kesalahan, ide, dan perjalanan di baliknya.
+                    </p>
+
+                    <div class="personal-details">
+                        <div>
+                            <span>NAME</span>
+                            <p>Alif Putra Firmansyah</p>
+                        </div>
+
+                        <div>
+                            <span>LOCATION</span>
+                            <p>Bogor, Jawa Barat</p>
+                        </div>
+
+                        <div>
+                            <span>CURRENTLY</span>
+                            <p>University Student</p>
+                        </div>
+
+                        <div>
+                            <span>FIELD</span>
+                            <p>Multimedia & Technology</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PERSONAL INTERESTS -->
+        <section class="section interests-section" id="interests">
+
+            <div class="section-heading reveal">
+                <p class="section-label">02 — THINGS I LOVE</p>
+                <h2>MY WORLD OF<br><span>INTERESTS.</span></h2>
+                <p class="section-subtitle">
+                    Beberapa hal yang membuat saya tertarik,
+                    terinspirasi, dan terus ingin berkembang.
+                </p>
+            </div>
+
+            <div class="interest-grid">
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">01</span>
+                    <div class="interest-symbol">◉</div>
+                    <h3>Photography</h3>
+                    <p>Menangkap cerita dan momen melalui sudut pandang visual.</p>
+                    <span class="interest-bottom">CAPTURE THE MOMENT ↗</span>
+                </article>
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">02</span>
+                    <div class="interest-symbol">▶</div>
+                    <h3>Videography</h3>
+                    <p>Mengubah ide dan kejadian menjadi cerita bergerak.</p>
+                    <span class="interest-bottom">TELL A STORY ↗</span>
+                </article>
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">03</span>
+                    <div class="interest-symbol">✳</div>
+                    <h3>Design & Editing</h3>
+                    <p>Mengeksplorasi kreativitas melalui visual dan komposisi.</p>
+                    <span class="interest-bottom">CREATE SOMETHING ↗</span>
+                </article>
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">04</span>
+                    <div class="interest-symbol">&lt;/&gt;</div>
+                    <h3>Technology</h3>
+                    <p>Mempelajari teknologi dan mencoba membangun sesuatu yang berguna.</p>
+                    <span class="interest-bottom">BUILD THE FUTURE ↗</span>
+                </article>
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">05</span>
+                    <div class="interest-symbol">✦</div>
+                    <h3>Content Creation</h3>
+                    <p>Menuangkan ide menjadi konten yang menarik dan bermakna.</p>
+                    <span class="interest-bottom">SHARE AN IDEA ↗</span>
+                </article>
+
+                <article class="interest-card reveal">
+                    <span class="interest-index">06</span>
+                    <div class="interest-symbol">∞</div>
+                    <h3>Learning</h3>
+                    <p>Selalu terbuka terhadap pengalaman dan pengetahuan baru.</p>
+                    <span class="interest-bottom">NEVER STOP LEARNING ↗</span>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- PERSONAL PHILOSOPHY -->
+        <section class="quote-section">
+            <div class="quote-content reveal">
+                <p>MY PERSONAL PHILOSOPHY</p>
+
+                <h2>
+                    "GREAT THINGS<br>
+                    TAKE <span>TIME.</span>"
+                </h2>
+
+                <span class="quote-author">— A REMINDER TO MYSELF</span>
+            </div>
+        </section>
+
+        <!-- JOURNEY -->
+        <section class="section journey-section" id="journey">
+
+            <div class="section-heading reveal">
+                <p class="section-label">03 — MY JOURNEY</p>
+                <h2>EVERY STEP<br>HAS A <span>STORY.</span></h2>
+                <p class="section-subtitle">
+                    Perjalanan pendidikan dan proses bertumbuh saya.
+                </p>
+            </div>
+
+            <div class="journey-list">
+
+                <article class="journey-item reveal">
+                    <div class="journey-year">2011 — 2017</div>
+                    <div class="journey-content">
+                        <span>THE BEGINNING</span>
+                        <h3>SDN Kebon Pedes 3</h3>
+                        <p>Awal perjalanan pendidikan dan proses belajar.</p>
+                    </div>
+                    <div class="journey-dot"></div>
+                </article>
+
+                <article class="journey-item reveal">
+                    <div class="journey-year">2019 — 2022</div>
+                    <div class="journey-content">
+                        <span>PERSONAL GROWTH</span>
+                        <h3>Pondok Pesantren Yatim Al-Hanif</h3>
+                        <p>Mendapatkan pengalaman pendidikan dan pembinaan karakter.</p>
+                    </div>
+                    <div class="journey-dot"></div>
+                </article>
+
+                <article class="journey-item reveal">
+                    <div class="journey-year">2022 — 2025</div>
+                    <div class="journey-content">
+                        <span>DISCOVERING MY INTEREST</span>
+                        <h3>SMK Boash 1</h3>
+                        <p>Menjalani pendidikan kejuruan dan mengembangkan minat.</p>
+                    </div>
+                    <div class="journey-dot"></div>
+                </article>
+
+                <article class="journey-item reveal">
+                    <div class="journey-year">2025 — NOW</div>
+                    <div class="journey-content">
+                        <span>THE NEXT CHAPTER</span>
+                        <h3>Universitas Boash</h3>
+                        <p>Teknologi Rekayasa Multimedia. Terus belajar, mencoba, dan berkembang.</p>
+                    </div>
+                    <div class="journey-dot"></div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- MOMENTS -->
+        <section class="section moments-section" id="moments">
+
+            <div class="section-heading reveal">
+                <p class="section-label">04 — MY LITTLE WORLD</p>
+                <h2>CAPTURED <span>MOMENTS.</span></h2>
+                <p class="section-subtitle">
+                    Potongan kecil dari aktivitas, pengalaman, dan cerita saya.
+                </p>
+            </div>
+
+            <div class="moments-grid">
+
+                <div class="moment-card moment-large reveal">
+                    <img src="./assets/moments/2.jpeg"
+                         alt="Personal moment">
+                    <span>01 / A MOMENT</span>
+                </div>
+
+                <div class="moment-card reveal">
+                    <img src="./assets/moments/3.jpeg"
+                         alt="Creative activity">
+                    <span>02 / CREATIVE LIFE</span>
+                </div>
+
+                <div class="moment-card reveal">
+                    <img src="./assets/moments/4.jpeg"
+                         alt="Daily activity">
+                    <span>03 / DAILY LIFE</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-inner reveal">
+                <p class="section-label">05 — LET'S CONNECT</p>
+
+                <h2>
+                    SAY <span>HELLO.</span>
+                </h2>
+
+                <p>
+                    Terima kasih sudah berkunjung dan mengenal sedikit
+                    tentang saya. Mari terhubung dan berbagi cerita.
+                </p>
+
+                <div class="contact-buttons">
+                    <!-- GANTI LINK DENGAN KONTAK ASLI -->
+                    <a href="https://instagram.com/"
+                       target="_blank" rel="noopener">
+                        INSTAGRAM ↗
+                    </a>
+
+                    <a href="https://wa.me/"
+                       target="_blank" rel="noopener">
+                        WHATSAPP ↗
+                    </a>
+
+                    <a href="mailto:emailkamu@example.com">
+                        EMAIL ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-watermark">ALIF.</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 ALIF PUTRA FIRMANSYAH</p>
+        <p>MADE WITH CURIOSITY & CREATIVITY.</p>
+    </footer>
+
+    <script src="./js/main.js" defer></script>
+    <script src="./js/animation.js" defer></script>
+    <script type="module" src="./js/three-scene.js"></script>
+
+</body>
+</html>
